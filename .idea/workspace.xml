@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="770ced7a-cfb3-4b59-ba2d-3379981d4fa0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/common/IDRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/controller/InterfaceInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/controller/UserInterfaceInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/mapper/InterfaceInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/mapper/UserInterfaceInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/model/dto/interfaceInfo/InterfaceInfoAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/model/dto/interfaceInfo/InterfaceInfoInvokeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/model/dto/interfaceInfo/InterfaceInfoQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/model/dto/interfaceInfo/InterfaceInfoUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/model/dto/userInterfaceInfo/UserInterfaceInfoAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/model/dto/userInterfaceInfo/UserInterfaceInfoQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/model/dto/userInterfaceInfo/UserInterfaceInfoUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/model/entity/InterfaceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/model/entity/UserInterfaceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/model/enums/InterfaceInfoStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/service/InterfaceInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/service/UserInterfaceInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/service/impl/InterfaceInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/java/com/yupi/project/service/impl/UserInterfaceInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/resources/mapper/InterfaceInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/main/resources/mapper/UserInterfaceInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/src/test/java/com/yupi/project/service/impl/UserInterfaceInfoServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-client-sdk/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-client-sdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-client-sdk/src/main/java/com/zhihao/synthapixclientsdk/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-client-sdk/src/main/java/com/zhihao/synthapixclientsdk/SynthAPIxClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-client-sdk/src/main/java/com/zhihao/synthapixclientsdk/Utils/SignUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-client-sdk/src/main/java/com/zhihao/synthapixclientsdk/client/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-client-sdk/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-client-sdk/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-client-sdk/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-interface/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-interface/src/main/java/com/zhihao/synthapixinterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-interface/src/main/java/com/zhihao/synthapixinterface/SynthApIxInterfaceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-interface/src/main/java/com/zhihao/synthapixinterface/controllers/NameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-interface/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-interface/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SynthAPIx-backend/synthAPIx-interface/src/test/java/com/zhihao/synthapixinterface/SynthApIxInterfaceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-client-sdk/src/main/java/com/zhihao/synthapixclientsdk/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-client-sdk/src/main/java/com/zhihao/synthapixclientsdk/SynthAPIxClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-client-sdk/src/main/java/com/zhihao/synthapixclientsdk/Utils/SignUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-client-sdk/src/main/java/com/zhihao/synthapixclientsdk/client/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-client-sdk/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-client-sdk/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-client-sdk/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-gateway/src/main/java/com/zhihao/synthapixgateway/SynthApIxGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-gateway/src/test/java/com/zhihao/synthapixgateway/SynthApIxGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-interface/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-interface/src/main/java/com/zhihao/synthapixinterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-interface/src/main/java/com/zhihao/synthapixinterface/SynthApIxInterfaceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-interface/src/main/java/com/zhihao/synthapixinterface/aop/InvokeCountAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-interface/src/main/java/com/zhihao/synthapixinterface/controllers/NameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-interface/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-interface/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/synthAPIx-interface/src/test/java/com/zhihao/synthapixinterface/SynthApIxInterfaceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2fprtvSwn9jJ0oltbrga9kPD82j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="770ced7a-cfb3-4b59-ba2d-3379981d4fa0" name="Changes" comment="" />
+      <created>1714509078763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714509078763</updated>
+      <workItem from="1714509079958" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,8 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+synthapix:
+  client:
+    access-key: ak123456
+    secret-key: sk123456
